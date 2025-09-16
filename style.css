@@ -1,0 +1,155 @@
+h1 {
+    color: #f24f00;
+}
+.black text {
+
+    color: black;
+    border: 2px solid black;
+}
+* {
+    margin: 0;
+}
+
+nav ul {
+    background-color: #f24f00;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+nav a {
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: RoobertCEZ, sans-serif;
+}
+
+nav a:hover {
+    color: black;
+    border-bottom: 4px solid black
+}
+
+@media screen and (max-width: 1000px) {
+    nav ul {
+        display: block;
+        height: 100%;
+        text-align: center;
+    }
+
+    nav li {
+        margin: 40px;
+
+    }
+
+    nav li:hover {
+        background-color: #6c757d;
+
+    }
+}
+
+section.slider {
+    height: 700px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(jaderka.jpg);
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    text-transform: uppercase;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    font-family: RoobertCEZ, sans-serif;
+
+}
+
+.button {
+    background-color: #f24f00;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-family: RoobertCEZ, sans-serif;
+}
+
+section.onas {
+    height: 100%;
+    background-color: #f24f00;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    font-size: 25px;
+    font-family: RoobertCEZ, sans-serif;
+    display: flex
+}
+
+.onasdiv {
+    width: 50%;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.onash1 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 2%;
+}
+
+
+
+.Jakinvestovath1 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 2%;
+    color: #f24f00;
+    background-color: white;
+    font-size: 80px;
+    margin-top: 2%;
+    font-family: RoobertCEZ, sans-serif;
+}
+
+.jakinvestovath3 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #f24f00;
+    background-color: white;
+    font-size: 35px;
+    margin-top: 2%;
+    font-family: RoobertCEZ, sans-serif;
+    margin-bottom: 2%;
+}
+
+img {
+    width: 500px;
+}
+
+.Jakinvestovat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Jakinvestovatdiv {
+    text-align: center;
+    display: flex;
+
+}
+
+.pomoc{  
+     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.jakinvestovatdivobr1{
+    margin-right: 50px;
+}
